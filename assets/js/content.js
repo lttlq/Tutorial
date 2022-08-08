@@ -1,8 +1,9 @@
 const CONTENT = [
     {
         software: {
-            name: "Designer V5",
-            alias: "designerv5",
+            name: "Designer V5 (EN)",
+            lang: "en",
+            alias: "designerv5-en",
             header: [
                 {
                     name: 'Login Page',
@@ -61,6 +62,76 @@ const CONTENT = [
                         {
                             vidName: "Tutorial 1 - Settings Page",
                             url: "settings"
+                        }
+
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        software: {
+            name: "Designer V5 (TR)",
+            lang: "tr",
+            alias: "designerv5-tr",
+            header: [
+                {
+                    name: 'Giriş Sayfası',
+                    video: [
+                        {
+                            vidName: "Bölüm 1 - Kontrol Yazılımına Giriş",
+                            url: "#"
+                        }
+                    ]
+
+
+                },
+                {
+                    name: 'Anasayfa',
+                    video: [
+                        {
+                            vidName: "Bölüm 1 - Menüler",
+                            url: "#"
+                        }
+
+                    ]
+                },
+                {
+                    name: 'Layout Menüsü',
+                    video: [
+                        {
+                            vidName: "Bölüm 1 - Layout Sayfası",
+                            url: "#"
+                        }
+
+                    ]
+                },
+                {
+                    name: 'Kaynaklar Menüsü',
+                    video: [
+                        {
+                            vidName: "Bölüm 1- Kaynak Menüsü",
+                            url: "#"
+                        }
+
+                    ]
+                },
+                {
+                    name: 'Diğer Menüler',
+                    video: [
+                        {
+                            vidName: "Bölüm 1- Diğer Menüler",
+                            url: "#"
+                        }
+
+                    ]
+                },
+                {
+                    name: 'Ayarlar',
+                    video: [
+                        {
+                            vidName: "Ayarlar Menüsü",
+                            url: "#"
                         }
 
                     ]
